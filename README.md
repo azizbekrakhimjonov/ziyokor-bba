@@ -8,7 +8,7 @@ Django + Gunicorn. BBA test platformasi (`public/bba-platform.html`) va `POST /a
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 python manage.py migrate
-python manage.py runserver 8080
+python manage.py runserver 7583
 ```
 
 ## Server

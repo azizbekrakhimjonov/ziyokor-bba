@@ -35,7 +35,7 @@ sudo chown -R www-data:www-data /opt/ziyokor-bba
 sudo cp deploy/bba.service /etc/systemd/system/bba.service
 sudo systemctl daemon-reload
 sudo systemctl enable --now bba
-curl -s -o /dev/null -w "%{http_code}\n" http://127.0.0.1:8080/
+curl -s -o /dev/null -w "%{http_code}\n" http://127.0.0.1:7583/
 ```
 
 ## 5. nginx
